@@ -1,7 +1,7 @@
 import java.util.Scanner;  // mengimpor Scanner untuk membaca input dari pengguna
 import java.time.LocalDate; // mengimpor LocalDate untuk mendapatkan tahun saat ini
 
-public class Main {
+public class DataDiri {
     public static void main(String[] args) {
         // membuat objek Scanner untuk membaca input dari pengguna
         Scanner scanner = new Scanner(System.in);

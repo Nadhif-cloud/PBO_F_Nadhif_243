@@ -1,6 +1,6 @@
-import java.util.Scanner;
+import java.util.Scanner; //libr
 
-public class Main {
+public class LoginSistem {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean ulangi = true;
