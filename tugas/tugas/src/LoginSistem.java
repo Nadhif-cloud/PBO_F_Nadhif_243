@@ -1,5 +1,4 @@
-import java.util.Scanner; //libr
-
+import java.util.Scanner; //library untuk scanf dll
 public class LoginSistem {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -9,7 +8,7 @@ public class LoginSistem {
             System.out.println("Pilih login:");
             System.out.println("1. Admin");
             System.out.println("2. Mahasiswa");
-            System.out.print("Masukkan pilihan: ");
+            System.out.print("Masukkan pilihan anda: ");
             int pilihan = scanner.nextInt();
             scanner.nextLine(); // Konsumsi newline
 
