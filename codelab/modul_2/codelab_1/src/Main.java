@@ -1,3 +1,4 @@
+
 // Kelas Hewan
 class Hewan {
     private String nama;
