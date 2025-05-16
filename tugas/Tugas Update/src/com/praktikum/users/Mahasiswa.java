@@ -56,7 +56,7 @@ public class Mahasiswa extends User implements MahasiswaActions {
             if (pilih == 1) {
                 reportItem();
             } else if (pilih == 2) {
-                reportedItems();
+                viewReportItem();
             } else if (pilih == 3) {
                 System.out.println(">> Terimakasih <<");
             } else {
@@ -65,12 +65,6 @@ public class Mahasiswa extends User implements MahasiswaActions {
                 System.out.println("===================================");
             }
         }while(pilih !=3);
-
-    }
-
-
-    @Override
-    public void reportItem() {
 
     }
 
@@ -94,10 +88,8 @@ public class Mahasiswa extends User implements MahasiswaActions {
         System.out.println();
     }
 
-
-
     @Override
-    public void reportedItems(){
+    public void reportItem(){
 
         System.out.println(">> Fitur Lihat Laporan Belum Tersedia <<");
     }
@@ -109,6 +101,5 @@ public class Mahasiswa extends User implements MahasiswaActions {
         System.out.println(">> Informasi Pengguna <<");
         System.out.println("Nama: " + nama);
         System.out.println("Nim: " + nim);
-
-}
+    }
 }

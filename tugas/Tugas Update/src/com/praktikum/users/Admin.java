@@ -64,12 +64,6 @@ public class Admin extends User implements AdminActions {
     }
 
     @Override
-    public void reportedItems() {
-
-    }
-
-
-    @Override
     public void manageItem(){
         System.out.println("======================================");
         System.out.println("  Fitur kelola barang belum Tersedia  ");

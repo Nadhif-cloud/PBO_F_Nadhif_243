@@ -31,17 +31,12 @@ public abstract class User {
     public abstract void login();
     public abstract void DisplayAppMenu();
 
-    public abstract void reportedItems();
-
     public void displayInfo() {
 
         System.out.println("Informasi Pengguna: ");
         System.out.println("Nama: " + getName());
         System.out.println("Nim: " + getNim());
-
-
-
-}
+    }
 
 
 
